@@ -1,0 +1,28 @@
+
+$font-logo: 'Playfair Display', serif;
+$font-text: 'Lato', sans-serif;
+
+
+
+
+$colours: (
+    grey: #c7c7c7,
+    black: #0a0a0a,
+    darkgrey: #767676,
+    ligthgrey: #efefef,
+    pink: #e92569,
+    white: #FFFFFF,
+    beige: #E5E5E5,
+);
+
+
+@function getColour($colour) {
+    @return map-get($colours, $colour);
+}
+
+
+h1 {
+    font-family: $font-logo;
+    color: getColour(pink);
+}
+
