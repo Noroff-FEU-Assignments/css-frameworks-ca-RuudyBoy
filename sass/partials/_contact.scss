@@ -2,14 +2,14 @@
     background-color: getColour(beige);
     padding: 30px 15px;
     border-radius: 3px;
-}
 
- .contact-form .btn {
+ button {
     background-color: getColour(darkgrey);
     border: none;
     width: 100%;
     padding: 10px;
     margin-top: 5px;
+}
 }
 
 .form-check-input {
@@ -20,6 +20,8 @@
 
 .list-group-item {
     color: getColour(darkgrey);
+    border: none;
+    background-color:transparent;
 }
 
 .list-group-item i {

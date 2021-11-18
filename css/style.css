@@ -1,13 +1,3 @@
-h1 {
-  font-family: "Playfair Display", serif;
-  color: #e92569;
-}
-
-p {
-  font-family: "Lato", sans-serif;
-  color: #767676;
-}
-
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -18,7 +8,7 @@ html, body {
 }
 
 body {
-  background-image: radial-gradient(circle at center, #E5E5E5, #FFFFFF);
+  background-image: radial-gradient(circle at center, , #E5E5E5);
   margin: 0;
   font-family: "Lato", sans-serif;
   display: -webkit-box;
@@ -30,32 +20,24 @@ body {
           flex-direction: column;
 }
 
-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+nav .navbar-brand {
+  font-family: "Playfair Display", serif;
+  color: #e92569 !important;
+}
+
+nav .navbar-toggler {
+  border: none;
+}
+
+nav .nav-link.active {
   background-color: #FFFFFF;
-  padding: 5px;
 }
 
-footer i {
-  color: #767676;
-  font-size: 20px;
+nav .nav-link {
+  color: #0a0a0a;
 }
 
-.wrapper {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto;
-}
-
-nav {
-  background: #e92569;
+.container-fluid {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -65,20 +47,73 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
-.navbar-brand {
-  font-family: "Playfair Display", serif;
-  color: #e92569 !important;
+.navbar {
+  background-color: #E5E5E5;
 }
 
-.d-flex .btn {
-  background-color: #e92569;
-  color: #FFFFFF;
-}
-
-.navbar-toggler {
+.d-flex input {
+  background-color: #FFFFFF;
   border: none;
+}
+
+.d-flex button {
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #e92569;
+  border: none;
+}
+
+.home-content {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.home-content .img-fluid {
+  width: 300px;
+  padding: 10px;
+  margin: 0px auto;
+}
+
+.home-content .nav-link {
+  color: #e92569;
+}
+
+.home-content .nav-item {
+  color: #e92569;
+}
+
+.home-content .tab-content {
+  background-color: #FFFFFF;
+  border-radius: 0px 10px 10px 10px;
+}
+
+.home-content .home-content .nav-link.active {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.yay-things {
+  text-align: center;
+  padding: 20px;
+}
+
+.yay-things .yay-text {
+  margin: 0px auto;
+  width: 80%;
+}
+
+.carousel-indicators .active {
+  background-color: #e92569 !important;
+  height: 30px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #FFFFFF;
+  height: 30px;
+  opacity: 1;
 }
 
 .card {
@@ -113,7 +148,7 @@ nav {
   border-radius: 3px;
 }
 
-.contact-form .btn {
+.contact-form button {
   background-color: #767676;
   border: none;
   width: 100%;
@@ -129,6 +164,8 @@ nav {
 
 .list-group-item {
   color: #767676;
+  border: none;
+  background-color: transparent;
 }
 
 .list-group-item i {
@@ -138,5 +175,45 @@ nav {
 
 .container h1 {
   padding: 20px;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  color: #e92569;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  color: #767676;
+}
+
+a {
+  font-family: "Lato", sans-serif;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #FFFFFF;
+  margin-top: 2rem;
+  font-size: 0.8em;
+  padding: 0.5em;
+}
+
+footer i {
+  color: #767676;
+  font-size: 40px;
+}
+
+.wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
 }
 /*# sourceMappingURL=style.css.map */
