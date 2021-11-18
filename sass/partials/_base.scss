@@ -2,9 +2,34 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
 
 body {
-    background-image: radial-gradient(circle at center, getColour(white), getColour(beige));
+    background-image: radial-gradient(circle at center, getColour(beige), getColour(white));
     margin: 0;
     font-family: $font-text;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    background-color: getColour(white);
+    padding: 5px;
+
+
+}
+
+footer i {
+    color: getColour(darkgrey);
+    font-size: 20px;
+}
+
+.wrapper {
+    flex: 1 0 auto;
 }

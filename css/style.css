@@ -3,15 +3,55 @@ h1 {
   color: #e92569;
 }
 
+p {
+  font-family: "Lato", sans-serif;
+  color: #767676;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
-  background-image: radial-gradient(circle at center, #FFFFFF, #E5E5E5);
+  background-image: radial-gradient(circle at center, #E5E5E5, #FFFFFF);
   margin: 0;
   font-family: "Lato", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #FFFFFF;
+  padding: 5px;
+}
+
+footer i {
+  color: #767676;
+  font-size: 20px;
+}
+
+.wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
 }
 
 nav {
@@ -29,11 +69,74 @@ nav {
 
 .navbar-brand {
   font-family: "Playfair Display", serif;
+  color: #e92569 !important;
+}
+
+.d-flex .btn {
+  background-color: #e92569;
+  color: #FFFFFF;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.card {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  margin-bottom: 2em;
+}
+
+.card .card-img-top {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card .btn {
+  background-color: #e92569;
+  border: none;
+  padding: 10px;
+  width: 100%;
+}
+
+.page-link {
   color: #e92569;
 }
 
-.btn {
+.page-item.active .page-link {
   background-color: #e92569;
-  color: #FFFFFF;
+  border: none;
+}
+
+.contact-form {
+  background-color: #E5E5E5;
+  padding: 30px 15px;
+  border-radius: 3px;
+}
+
+.contact-form .btn {
+  background-color: #767676;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.form-check-input {
+  background-color: #e92569;
+  padding: 10px;
+  margin: 2px;
+}
+
+.list-group-item {
+  color: #767676;
+}
+
+.list-group-item i {
+  padding: 5px;
+  font-size: 30px;
+}
+
+.container h1 {
+  padding: 20px;
 }
 /*# sourceMappingURL=style.css.map */

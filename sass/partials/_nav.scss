@@ -7,16 +7,17 @@ nav {
 
 .navbar-brand {
     font-family: $font-logo;
-    color:getColour(pink);
+    color:getColour(pink) !important;
 }
 
-.btn {
+.d-flex .btn {
     background-color:getColour(pink);
     color: getColour(white);
 }
 
-.btn :hover {
-    background-color:getColour(pink);
-    color: getColour(white);
+.navbar-toggler {
+    border: none;
+}
+
 
 

@@ -1,0 +1,26 @@
+.card {
+    background-color: getColour(white);
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+.card .card-img-top {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card .btn {
+    background-color: getColour(pink);
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.page-link  {
+    color: getColour(pink);
+}
+
+.page-item.active .page-link  {
+    background-color: getColour(pink);
+    border:none;
+}
+
