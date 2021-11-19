@@ -6,16 +6,33 @@ footer {
     margin-top: 2rem;
     font-size: 0.8em;
     padding: 0.5em;
+
+   
     
     
     i {
     color: getColour(darkgrey);
     font-size: 40px;
 }
+
+
+a {
+    color: white;
+    text-decoration: none;
+
+    a:hover {
+        color: getColour(primary);
+    }
+}
+a {
+    color: white;
+    text-decoration: none;
+
+    a:hover {
+        color: getColour(pink);
+    }
+}
 }
 
  
 
-.wrapper {
-    flex: 1 0 auto;
-}

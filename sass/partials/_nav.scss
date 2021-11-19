@@ -5,8 +5,10 @@ nav {
     color:getColour(pink) !important;
 }
 
-.navbar-toggler {
+button {
     border: none;
+    color: getColour(pink);
+    
 }
 
 .nav-link.active {
@@ -17,7 +19,10 @@ nav {
     color: getColour(black);
 }
 
+
 }
+
+
 
 .container-fluid {
     display: flex;
@@ -26,6 +31,9 @@ nav {
     max-width: 90%;
     margin: 0 auto;
 }
+
+
+
 
 .navbar {
     background-color: getColour(beige);

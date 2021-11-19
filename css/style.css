@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-  background-image: radial-gradient(circle at center, , #E5E5E5);
+  background-image: radial-gradient(circle at center, #FFFFFF, #E5E5E5);
   margin: 0;
   font-family: "Lato", sans-serif;
   display: -webkit-box;
@@ -20,13 +20,20 @@ body {
           flex-direction: column;
 }
 
+.wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
 nav .navbar-brand {
   font-family: "Playfair Display", serif;
   color: #e92569 !important;
 }
 
-nav .navbar-toggler {
+nav button {
   border: none;
+  color: #e92569;
 }
 
 nav .nav-link.active {
@@ -135,6 +142,7 @@ nav .nav-link {
 
 .page-link {
   color: #e92569;
+  border: 1px solid;
 }
 
 .page-item.active .page-link {
@@ -211,9 +219,17 @@ footer i {
   font-size: 40px;
 }
 
-.wrapper {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto;
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a a:hover {
+  color: #e92569;
 }
 /*# sourceMappingURL=style.css.map */
