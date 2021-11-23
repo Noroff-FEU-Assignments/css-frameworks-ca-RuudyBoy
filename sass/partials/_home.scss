@@ -1,0 +1,59 @@
+.home-content {
+    width: 80%;
+    margin: 20px auto; 
+
+    .img-fluid {
+        width: 300px;
+        padding: 10px;
+        margin: 0px auto;
+    }
+    
+     .nav-link {
+        color: getColour(pink);
+    }
+    
+    .nav-item {
+        color: getColour(pink);
+    }
+    
+    .tab-content {
+        background-color: getColour(white);
+        border-radius: 0px 10px 10px 10px;
+    }
+    
+    .home-content .nav-link.active {
+        border-radius: 10px 10px 0px 0px;
+    }
+   
+}
+
+.yay-things {
+    text-align: center;
+    padding: 20px;
+    
+    .yay-text {
+    margin: 0px auto;
+    width: 80%;
+}
+}
+
+
+
+
+
+.carousel-indicators {
+
+    .active {
+        background-color: getColour(pink) !important;
+        height: 30px;
+    }
+
+    [data-bs-target] {
+        background-color: getColour(white);
+        height: 30px;
+        opacity: 1;
+        
+    }
+}
+
+

@@ -1,0 +1,63 @@
+nav {
+
+.navbar-brand {
+    font-family: $font-logo;
+    color:getColour(pink) !important;
+}
+
+button {
+    border: none;
+    color: getColour(pink);
+    
+}
+
+.nav-link.active {
+    background-color: getColour(white);
+}
+
+.nav-link {
+    color: getColour(black);
+}
+
+.navbar-toggler-icon {
+    color: getColour(darkgrey);
+}
+
+}
+
+
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.navbar {
+    background-color: getColour(beige);
+}
+
+
+.d-flex {
+
+    input {
+        background-color: getColour(white);
+        border: none;
+
+    }
+
+    button {
+        text-align: center;
+        color: getColour(white);
+        background-color: getColour(pink);
+        border: none;
+    }
+}
+
